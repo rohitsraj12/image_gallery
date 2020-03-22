@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image gallery</title>
+    <!-- styling -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrap__body">
+      <div class="page__header">
+        <h2>
+          simple image gallery
+        </h2>
+      </div>
+      <div class="container">
+        <div class="wrap__img">
+          <img
+            src="data:image/jpeg;base64,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"
+          />
+        </div>
+
+        <div class="wrap__img">
+          <img
+            src="https://losrostros.com.mx/wp-content/uploads/2018/04/mindfulness_bkg.jpg"
+          />
+        </div>
+
+        <div class="wrap__img">
+          <img
+            src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/otramedicina/C/Como-la-meditacion-mejora-tu-vida-3.jpg"
+          />
+        </div>
+
+        <div class="wrap__img">
+          <img
+            src="https://lamenteesmaravillosa.com/wp-content/uploads/2014/10/Monje-meditando.jpg"
+          />
+        </div>
+
+        <div class="wrap__img">
+          <img
+            src="https://img.freepik.com/free-photo/young-attractive-woman-ardha-padmasana-pose-white-studio-bac_1163-2336.jpg?size=626&ext=jpg"
+          />
+        </div>
+
+        <div class="wrap__img">
+          <img
+            src="https://i.pinimg.com/originals/56/0c/94/560c940e0767587e70583fef6f5fe5b8.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
