@@ -4,4 +4,4 @@
 
 <h3>screenshot</h3>
 
-<img src="img/screenshot-1.png" alt="" />
+<img src="img/screenshot-1.png" alt="" width="500px" />
