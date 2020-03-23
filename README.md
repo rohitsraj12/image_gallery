@@ -1,2 +1,3 @@
 # simple image gallery
-Simple image gallery with html, css3 and jQuery
+
+<h2>Simple image gallery with html, css3 and jQuery</h2>
